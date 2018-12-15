@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from './Layout';
 import Home from './components/Home';
-import Todolist from './components/Todolist';
+import TodoList from './components/Todo';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <div>
         <Layout>
           <Home />
-          <Todolist />
+          <TodoList />
         </Layout>
       </div>
     );
