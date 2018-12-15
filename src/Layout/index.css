@@ -1,0 +1,24 @@
+.layout-warp {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header-warp {
+    height: 68px;
+    background-color: #000022;
+    line-height: 68px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.footer-warp {
+    width: 100%;
+    height: 40px;
+    background-color: #eee;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
